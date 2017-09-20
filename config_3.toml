@@ -1,0 +1,17 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Zudo"
+theme = "kube"
+description = "A blog"
+Paginate = 10
+[Params]
+  RSSLink = "/index.xml"
+  author = "slash" # add your company name
+  github = "" # add your github profile name
+  twitter = "" # add your twitter profile
+  email = "myemail@myaddress.xxx"
+
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/posts/"

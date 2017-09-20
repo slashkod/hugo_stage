@@ -1,0 +1,20 @@
+baseURL = "http://zudokod.github.io/"
+languageCode = "en-us"
+title = "Zudo Notes"
+contentdir = "content"
+publishdir = "public"
+builddrafts = true
+canonifyurls = true
+author = "slash"
+theme = "pixyll"
+
+[indexes]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  search_engine = true
+  google_analytics_id = "XX-XXXXXXXX-X"
+  twitter_username = "username"
+  disqus_shortname = "sitename"
+  paginate = true
